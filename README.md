@@ -45,7 +45,7 @@
 
 # Projeto automação de testes de API Dados Abertos da Camara
 
-<img src="https://github.com/RafaelPaiv/TesteFormularioTricents/blob/main/src/test/resources/Imagens/Tricentis%20Logo%20Vector.png"  width="400px" alt="Imagem Tricents"/><br>
+<img src="https://github.com/RafaelPaiv/ProjetoAPI_RestAssured_DadosAbertos_Blocos/blob/386a4b30b5eba0d94488a915243b0ca1836e026b/src/test/resources/Imagens/marca-camara-preferencial-cores.png"  width="400px" alt="Imagem Tricents"/><br>
 
 
 Este projeto de automação de testes funcionais consiste em validar o site Dados Abertos camara com foco no servico de API Blocos para pesquisa de blocos politcos na camara dos deputados, utilizando as tecnologias:
@@ -110,7 +110,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://github.com/RafaelPaiv/TesteFormularioTricents/blob/main/src/test/resources/Imagens/avatar_rafa_programming.jpg" width="100px; alt="Foto do Rafael Paiva no GitHub"/><br>
+        <img src="https://github.com/RafaelPaiv/ProjetoAPI_RestAssured_DadosAbertos_Blocos/blob/386a4b30b5eba0d94488a915243b0ca1836e026b/src/test/resources/Imagens/avatar_rafa_programming.jpg" width="100px; alt="Foto do Rafael Paiva no GitHub"/><br>
         <sub>
           <b>Rafael Paiva</b>
         </sub>
