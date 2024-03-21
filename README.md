@@ -65,7 +65,7 @@ Etapa única de testes automatizados:
 
 Antes de começar, é necessário configurar o ambiente de desenvolvimento, verifique se você atendeu aos seguintes requisitos:
 
-* Instalou as versões mais recente do Java (JDK), Maven e Git;
+* Instalou as versões mais recente do Java (JDK), Maven, Git e jenkins;
 * Configurou as variáveis de ambiente para execução do projeto.
 
 
@@ -84,10 +84,23 @@ Para instalar o <Projeto automacao de testes de API Dados Abertos da Camara>, si
 
 ## ☕ Usando <Projeto automacao de testes de API Dados Abertos da Camara>
 
+Pelo console:
+
 Navegue até a raiz do projeto e execute os testes automatizados
 ```
 <mvn test -Dtest=BlocosAPITest>
 ```
+
+Pelo jenkins:
+
+- Configure as variáveis de ambiente para execução do projeto no Jenkins
+- Crie um novo item
+- Configure seu item apontando o caminho git do projeto e indicando a branch corretamente no campo Source Code Management
+- No campo Build Steps selecione a opção Invoke top-level Maven targets
+- Preencha o campo Goals com o comando <test -Dtest=BlocosAPITest>
+- Salve o item
+- Execute por meio do botão Build Now
+
 
 ## 🤝 Colaboradores
 
