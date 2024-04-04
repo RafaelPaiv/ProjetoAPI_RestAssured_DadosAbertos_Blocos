@@ -33,10 +33,6 @@ public class BlocosObjects extends APIClient {
 		assertEquals(nome, nomeVerificado);
 		assertEquals(200, response.getStatusCode());
 		
-		System.out.println("O id validado foi " + idVerificado);
-		System.out.println("O idLegislatura validado foi " + idLegislaturaVerificado);
-		System.out.println("O nome validado foi " + nomeVerificado);
-		System.out.println("O status code verificado foi: " + response.getStatusCode());
 
 	}
 

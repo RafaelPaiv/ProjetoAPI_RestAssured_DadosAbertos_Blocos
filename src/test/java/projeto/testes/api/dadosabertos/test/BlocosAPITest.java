@@ -12,7 +12,7 @@ public class BlocosAPITest extends APIClient {
 	@Test
 	public void teste() {
 
-		bo.validarBlocoID(0);
+		bo.validarBlocoID(1);
 
 	}
 
